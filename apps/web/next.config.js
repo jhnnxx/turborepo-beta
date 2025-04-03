@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	trailingSlash: true,
+	trailingSlash: false,
 	async rewrites() {
 		return [
 			{
 				source: "/docs/:path*",
-				destination: "https://turborepo-next-docs.vercel.app/docs/:path*",
+				destination: "https://turborepo-next-docs.vercel.app/:path*",
 			},
 			{
 				source: "/react-app/:path*",
