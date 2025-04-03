@@ -8,12 +8,12 @@ const nextConfig = {
 				destination: "https://turborepo-next-docs.vercel.app/docs/:path*",
 			},
 			{
-				source: "/react-vite/:path*",
-				destination: "http://localhost:5173/react-vite/:path*",
+				source: "/react-app/:path*",
+				destination: "https://turborepo-react-app.vercel.app/:path*",
 			},
 			{
-				source: "/react-app/:path*",
-				destination: "http://localhost:4000/react-app/:path*",
+				source: "/react-vite/:path*",
+				destination: "http://localhost:5173/react-vite/:path*",
 			}
 		];
 	},
