@@ -1,6 +1,0 @@
-{
-  "trailingSlash": true,
-  "rewrites": [
-    { "source": "/react-app/:path*", "destination": "/:path*" }
-  ]
-}
