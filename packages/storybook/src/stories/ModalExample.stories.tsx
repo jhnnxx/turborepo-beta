@@ -92,7 +92,7 @@ export const InputAlert: {
       confirmText: string;
       fontSize: string;
       type: string
-      onChange: (e) => void
+      onChange: (e: any) => void
     }
   }
 } = {

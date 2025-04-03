@@ -2,7 +2,7 @@ import ModalProvider, {useModal} from "@/provider/ModalProvider";
 import Button from "@/stories/Button";
 import {useEffect} from "react";
 
-const ModalButton = ({props}) => {
+const ModalButton = ({props}: {props: any}) => {
   const { open } = useModal()
   const onClickOpenModal = () => {
     open(props);
@@ -26,7 +26,10 @@ const ModalButton = ({props}) => {
 export const ModalExample = ({
     props,
     onChange
-  }) => {
+  }: {
+  props: any
+  onChange: any
+}) => {
   return (
     <ModalProvider>
       <ModalButton props={props}/>

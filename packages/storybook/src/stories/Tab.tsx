@@ -1,8 +1,8 @@
-import {useState} from "react";
+import {Children, ReactNode, useState} from "react";
 
 interface TabProps {
   className: string
-  children: Element[]
+  children: ReactNode[]
   currentTab: number;
   setCurrentTab: (index: number) => void;
 }
@@ -43,7 +43,7 @@ function TabContainer(props: any) {
   const {className, children, currentTab} = props as TabProps
   return (
     <div className={`${className}`}>
-      {children.map((child, index) => {
+      {Children.map(children, (child, index) => {
         return (
           <div key={index} className={`${currentTab === index ? 'visible' : 'hidden'}`}>
             {child}
