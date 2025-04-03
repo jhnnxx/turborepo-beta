@@ -1,0 +1,117 @@
+import { Meta, Canvas } from '@storybook/blocks'
+import * as InputSearch from './InputSearch.stories'
+
+<Meta title="InputSearch" name="Docs" of={InputSearch} />
+
+# InputSearch
+
+### Props
+
+<table>
+  <thead>
+    <tr>
+      <th>Props</th>
+      <th>default</th>
+      <th>value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <th>style</th>
+       <td>'gray'</td>
+       <td>'gray' | 'white'</td>
+       <td>검색창 스타일 선택</td>
+    </tr>
+    <tr>
+      <th>label</th>
+      <td></td>
+      <td>string</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>className</th>
+      <td>''</td>
+      <td>string</td>
+      <td>최상위 부모 요소 클래스</td>
+    </tr>
+    <tr>
+      <th>width</th>
+      <td></td>
+      <td>string</td>
+      <td>최상위 부모 요소 가로 사이즈</td>
+    </tr>
+    <tr>
+      <th>height</th>
+      <td></td>
+      <td>string</td>
+      <td>최상위 부모 요소 세로 사이즈</td>
+    </tr>
+    <tr>
+      <th>size</th>
+      <td>'lg'</td>
+      <td>'sm' | 'md' | 'lg' | 'xlg'</td>
+      <td>
+        검색창 크기 조절<br />
+        sm: height- 36px, font size - 14px<br />
+        md: height- 44px, font size - 16px<br />
+        lg: height- 52px, font size - 16px<br />
+        xlg: height- 64px, font size - 18px
+      </td>
+    </tr>
+    <tr>
+      <th>value</th>
+      <td></td>
+      <td>string</td>
+      <td>입력된 검색어 값</td>
+    </tr>
+    <tr>
+      <th>onChange</th>
+      <td></td>
+      <td>(e: ChangeEvent&lt;HTMLInputElement&gt;) => void</td>
+      <td>입력값 변경 시 호출</td>
+    </tr>
+    <tr>
+      <th>placeholder</th>
+      <td>검색어를 입력해주세요.</td>
+      <td>string</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>ref</th>
+      <td></td>
+      <td>
+        import InputSearch, \{InputSearchHandle\} '컴포넌트 경로'<br />
+        const 변수명 = useRef&lt;InputSearchHandle&gt;(null)<br />
+        변수명.current?.focus()<br />
+        변수명.current?.blur()<br />
+        변수명.current?.getValue()
+      </td>
+      <td>ref=\{변수명\} 로 focus, blur, getValue 메서드 접근</td>
+    </tr>
+    <tr>
+      <th>onClick</th>
+      <td></td>
+      <td>() => void</td>
+      <td>검색 아이콘 클릭</td>
+    </tr>
+    <tr>
+      <th>onFocus</th>
+      <td></td>
+      <td>() => void</td>
+      <td>입력 필드 포커스 이벤트</td>
+    </tr>
+    <tr>
+      <th>onBlur</th>
+      <td></td>
+      <td>() => void</td>
+      <td>입력 필드 포커스 아웃 이벤트</td>
+    </tr>
+  </tbody>
+</table>
+
+<section className="grid grid-cols-2 gap-4">
+    <Canvas of={InputSearch.Gray} />
+    <Canvas of={InputSearch.White} />
+</section>
+

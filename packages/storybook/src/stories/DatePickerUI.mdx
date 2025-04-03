@@ -1,0 +1,70 @@
+import { Meta, Canvas } from '@storybook/blocks'
+import * as DatePickerUI from './DatePickerUI.stories'
+
+<Meta title="DatePickerUI" name="Docs" of={DatePickerUI} />
+
+# DatePicker
+
+### Props
+
+#### DatePickerProps 사용하면 된다. [https://reactdatepicker.com/](https://reactdatepicker.com/)
+
+<table className="text-center">
+  <thead>
+    <tr>
+      <th>Props</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>selected</th>
+      <td>선택일</td>
+    </tr>
+    <tr>
+      <th>onChange</th>
+      <td>()=>void</td>
+    </tr>
+    <tr>
+      <th>startDate</th>
+      <td>시작일</td>
+    </tr>
+    <tr>
+      <th>endDate</th>
+      <td>마지막일</td>
+    </tr>
+    <tr>
+      <th>selectsStart</th>
+      <td>범위를 지정하여 선택 할때 시작일을 선택하는 calender</td>
+    </tr>
+    <tr>
+      <th>selectsEnd</th>
+      <td>범위를 지정하여 선택 할때 마지막일을 선택하는 calender</td>
+    </tr>
+    <tr>
+      <th>maxDate</th>
+      <td>
+        범위를 지정할때 마지막일과 동일한 값을 가져야 하고, 마지막일보다 이후
+        선택을 방지한다.
+      </td>
+    </tr>
+    <tr>
+      <th>minDate</th>
+      <td>
+        범위를 지정할때 시작일과 동일한 값을 가져야 하고, 시작일보다 이전 선택을
+        방지한다.
+      </td>
+    </tr>
+    <tr>
+      <th>inline</th>
+      <td>Calender 펼쳐짐</td>
+    </tr>
+  </tbody>
+</table>
+
+<div className="flex items-center justify-center gap-5">
+  <Canvas of={DatePickerUI.multiDatePickerStart} />
+  <Canvas of={DatePickerUI.multiDatePickerEnd} />
+</div>
+<Canvas of={DatePickerUI.datePicker} />
+<Canvas of={DatePickerUI.inlineDatePickerEnd} />

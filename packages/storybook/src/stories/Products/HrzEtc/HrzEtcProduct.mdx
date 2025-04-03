@@ -1,0 +1,28 @@
+import { Meta, Canvas } from '@storybook/blocks'
+import * as Product from './HrzEtcProduct.stories'
+
+<Meta title="HrzEtcProduct" name="Docs" of={Product} />
+
+# HrzEtcProduct
+
+#### Description
+
+##### 각 컴포넌트는 전체 크기 및 폰트 사이즈, 패딩 등을 수정하여 사용한 것으로 가격이 없는 도서, card를 제외하고 사용방법 동일
+
+##### className: 최상단 요소 css
+
+##### priceInfo: 가격정보 없으면 미노출
+
+##### productInfo: 상품 정보
+
+##### title: 타이틀 제목
+
+##### image: 이미지
+
+##### imageBoxStyle: 이미지의 크기를 주로 담당
+
+##### isLike: 하트 노출 여부
+
+### 가로형 장바구니 및 마이페이지
+
+<Canvas of={Product.hrzEtcProduct} />

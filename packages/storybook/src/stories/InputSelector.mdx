@@ -1,0 +1,16 @@
+import { Meta, Canvas } from '@storybook/blocks'
+
+import * as InputSelector from "./InputSelector.stories";
+
+<Meta title="InputSelector" name="Docs" of={InputSelector} />
+
+# InputSelector
+
+#### Description
+총 3가지 타입의 InputSelector 가 있으며, 반응형 구현. (임시로 default, md 및 lg를 반영)\
+옵셔널 파라미터(`size, color`)를 통해 크기 및 색상을 고정하여 사용 가능.\
+`color` 데이터는 css var(...) 혹은 HEX 코드(#...) 형태로 사용.
+
+<Canvas of={InputSelector.Square} />
+<Canvas of={InputSelector.Circle} />
+<Canvas of={InputSelector.Radio} />

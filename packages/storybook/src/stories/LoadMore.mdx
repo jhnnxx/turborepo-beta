@@ -1,0 +1,39 @@
+import { Meta, Canvas } from '@storybook/blocks'
+import * as LoadMore from './LoadMore.stories'
+
+<Meta title="LoadMore" name="Docs" of={LoadMore} />
+
+# LoadMore
+
+### Props
+
+<table>
+  <thead>
+    <tr>
+      <th>total</th>
+      <th>count</th>
+      <th>isCount</th>
+      <th>text</th>
+      <th>responseSize</th>
+      <th>callback</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>number</td>
+      <td>number</td>
+      <td>boolean</td>
+      <td>string</td>
+      <td>'xs' | 'sm' | 'md' | 'lg'</td>
+      <td>() => void</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Description
+
+- 현재 페이지 정보를 표시 하고 싶을땐 isCount, total, count를 함께 추가한다.
+- responseSize는 button props와 동일하다.
+
+<Canvas of={LoadMore.loadMore} />
+<Canvas of={LoadMore.loadMoreCount} />

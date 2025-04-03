@@ -1,0 +1,71 @@
+import { Meta, Story, Canvas, ArgsTable } from "@storybook/blocks";
+import ModalExample, {ConfirmAlert, RenderPropsModal} from "./ModalExample.stories";
+
+<Meta title="Modal" name="Docs" of={ModalExample} />
+
+# 🛠 Modal 컴포넌트
+모달은 사용자 인터페이스에서 중요한 정보를 전달하거나, 사용자 입력을 요청할 때 사용.
+사용시 provider로 묶고 useModal 을 통해 modalContext로 전달하면 전역으로 사용할 것으로 예상.
+혹은 jotai로 상태관리
+
+## Props
+```tsx
+import {ChangeEvent} from "react";
+interface ModalProps {
+  props: {
+    isOpen?: boolean;
+    type?: 'alert' | 'confirm' | 'input' | 'modal';
+    size?: 'xs' | 'sm' | 'md' | 'lg'
+    fontSize?: 'xs' | 'sm' | 'lg'
+    containerSize?: 'sm' | 'md' | 'lg' | 'xl'
+    title?: string;
+    className?: string;
+    subscript?: React.ReactNode;
+    confirmText?: string;
+    cancelText?: string;
+    onConfirm?: () => void;
+    onChange?: (e:ChangeEvent<HTMLInputElement>) => void;
+    render?: () =>  React.ReactNode;
+    footer?: () =>  React.ReactNode;
+  }
+  onClose: () => void;
+}
+```
+
+## 📌 사용 방법
+```tsx
+const Example = () => {
+  const {open} = useModal();
+
+  const onClickOpenModal = () => {
+    open({
+      type: "input",
+      title: "테스트 모달",
+      children: '테스트 내용',
+      confirmText: '확인',
+      onConfirm: () => alert("실행됨"),
+      onChange: (e:ChangeEvent<HTMLInputElement>) => console.log(e.target.value)
+      },
+    );
+  };
+
+  return (
+    <Button
+      className="w-[200px]"
+      label={'누르면 열려'}
+      fontSize={'sm'}
+      size={'sm'}
+      style="style1"
+      type="button"
+      onClick={() => onClickOpenModal()}
+    />
+  );
+};
+```
+### ✅ Confirm alert
+<Canvas of={ConfirmAlert} />
+
+### ✅ Render props 모달
+<Canvas of={RenderPropsModal} />
+
+

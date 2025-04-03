@@ -1,0 +1,23 @@
+import { IconColorProps } from '@/types/common/icons'
+
+export default function IconCamera({ color }: IconColorProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M12 3H13.8093C14.3762 3 14.9166 3.24064 15.2959 3.66207L15.9041 4.33793C16.2834 4.75936 16.8238 5 17.3907 5H19C20.1046 5 21 5.89543 21 7V16C21 17.1046 20.1046 18 19 18H5C3.89543 18 3 17.1046 3 16V11"
+        stroke={color}
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <circle cx="12" cy="11" r="3.25" stroke={color} strokeWidth="1.5" />
+      <path
+        d="M5.5 1V8M9 4.5H2"
+        stroke={color}
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}

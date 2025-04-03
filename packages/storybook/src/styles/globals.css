@@ -1,0 +1,445 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+}
+
+@layer base {
+  /* 기본, 테마 1 (Green) */
+  :root {
+    --tw-primary: theme(colors.primary.500);
+    --button-style1-bg: theme(colors.button.style1Default.bg);
+    --button-style1-border: theme(colors.button.style1Default.border);
+    --button-style1-color: theme(colors.button.style1Default.text);
+    --button-style1-bg-hover: theme(colors.button.style1Hover.bg);
+    --button-style1-border-hover: theme(colors.button.style1Hover.border);
+    --button-style1-color-hover: theme(colors.button.style1Hover.text);
+    --button-style2-bg: theme(colors.button.style2Default.bg);
+    --button-style2-border: theme(colors.button.style2Default.border);
+    --button-style2-color: theme(colors.button.style2Default.text);
+    --button-style2-bg-hover: theme(colors.button.style2Hover.bg);
+    --button-style2-border-hover: theme(colors.button.style2Hover.border);
+    --button-style2-color-hover: theme(colors.button.style2Hover.text);
+    --button-style3-bg: theme(colors.button.style3Default.bg);
+    --button-style3-border: theme(colors.button.style3Default.border);
+    --button-style3-color: theme(colors.button.style3Default.text);
+    --button-style3-bg-hover: theme(colors.button.style3Hover.bg);
+    --button-style3-border-hover: theme(colors.button.style3Hover.border);
+    --button-style3-color-hover: theme(colors.button.style3Hover.text);
+    --button-disabled-bg: theme(colors.button.disabled.bg);
+    --button-disabled-border: theme(colors.button.disabled.border);
+    --button-disabled-color: theme(colors.button.disabled.text);
+    --input-bg: theme(colors.input.bg);
+    --input-text: theme(colors.input.text);
+    --input-disabled-bg: theme(colors.input.disabled.bg);
+    --input-disabled-placeholder: theme(colors.input.disabled.placeholder);
+    --select-option-bg: theme(colors.select.option.bg);
+  }
+
+  /* 테마별 primary 색상 변경 */
+  main[data-theme='Emerald'] {
+    --tw-primary: theme(colors.emerald.700);
+    --button-style1-bg: theme(colors.emerald.button.style1Default.bg);
+    --button-style1-border: theme(colors.emerald.button.style1Default.border);
+    --button-style1-color: theme(colors.emerald.button.style1Default.text);
+    --button-style1-bg-hover: theme(colors.emerald.button.style1Hover.bg);
+    --button-style1-border-hover: theme(
+      colors.emerald.button.style1Hover.border
+    );
+    --button-style1-color-hover: theme(colors.emerald.button.style1Hover.text);
+    --button-style2-bg: theme(colors.emerald.button.style2Default.bg);
+    --button-style2-border: theme(colors.emerald.button.style2Default.border);
+    --button-style2-color: theme(colors.emerald.button.style2Default.text);
+    --button-style2-bg-hover: theme(colors.emerald.button.style2Hover.bg);
+    --button-style2-border-hover: theme(
+      colors.emerald.button.style2Hover.border
+    );
+    --button-style2-color-hover: theme(colors.emerald.button.style2Hover.text);
+  }
+
+  main[data-theme='Orange'] {
+    --tw-primary: theme(colors.orange.900);
+    --tw-sub: theme(colors.orange.200);
+    --button-style1-bg: theme(colors.orange.button.style1Default.bg);
+    --button-style1-border: theme(colors.orange.button.style1Default.border);
+    --button-style1-color: theme(colors.orange.button.style1Default.text);
+    --button-style1-bg-hover: theme(colors.orange.button.style1Hover.bg);
+    --button-style1-border-hover: theme(
+      colors.orange.button.style1Hover.border
+    );
+    --button-style1-color-hover: theme(colors.orange.button.style1Hover.text);
+    --button-style2-bg: theme(colors.orange.button.style2Default.bg);
+    --button-style2-border: theme(colors.orange.button.style2Default.border);
+    --button-style2-color: theme(colors.orange.button.style2Default.text);
+    --button-style2-bg-hover: theme(colors.orange.button.style2Hover.bg);
+    --button-style2-border-hover: theme(
+      colors.orange.button.style2Hover.border
+    );
+    --button-style2-color-hover: theme(colors.orange.button.style2Hover.text);
+  }
+
+  main[data-theme='Gold'] {
+    --tw-primary: theme(colors.gold.200);
+    --button-style1-bg: theme(colors.gold.button.style1Default.bg);
+    --button-style1-border: theme(colors.gold.button.style1Default.border);
+    --button-style1-color: theme(colors.gold.button.style1Default.text);
+    --button-style1-bg-hover: theme(colors.gold.button.style1Hover.bg);
+    --button-style1-border-hover: theme(colors.gold.button.style1Hover.border);
+    --button-style1-color-hover: theme(colors.gold.button.style1Hover.text);
+    --button-style2-bg: theme(colors.gold.button.style2Default.bg);
+    --button-style2-border: theme(colors.gold.button.style2Default.border);
+    --button-style2-color: theme(colors.gold.button.style2Default.text);
+    --button-style2-bg-hover: theme(colors.gold.button.style2Hover.bg);
+    --button-style2-border-hover: theme(colors.gold.button.style2Hover.border);
+    --button-style2-color-hover: theme(colors.gold.button.style2Hover.text);
+  }
+}
+
+body {
+  color: var(--colors-secondary-900);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-primary {
+    color: var(--tw-primary);
+  }
+  .border-primary {
+    border-color: var(--tw-primary);
+  }
+  .bg-primary {
+    background-color: var(--tw-primary);
+  }
+  .button-style1-border {
+    border-color: var(--button-style1-border);
+  }
+  .button-style1-text {
+    color: var(--button-style1-color);
+  }
+  .button-style1-bg {
+    background-color: var(--button-style1-bg);
+  }
+  .button-style1-border:hover {
+    border-color: var(--button-style1-border-hover);
+  }
+  .button-style1-text:hover {
+    color: var(--button-style1-color-hover);
+  }
+  .button-style1-bg:hover {
+    background-color: var(--button-style1-bg-hover);
+  }
+
+  .button-style2-border {
+    border-color: var(--button-style2-border);
+  }
+  .button-style2-text {
+    color: var(--button-style2-color);
+  }
+  .button-style2-bg {
+    background-color: var(--button-style2-bg);
+  }
+  .button-style2-border:hover {
+    border-color: var(--button-style2-border-hover);
+  }
+  .button-style2-text:hover {
+    color: var(--button-style2-color-hover);
+  }
+  .button-style2-bg:hover {
+    background-color: var(--button-style2-bg-hover);
+  }
+
+  .button-style3-border {
+    border-color: var(--button-style3-border);
+  }
+  .button-style3-text {
+    color: var(--button-style3-color);
+  }
+  .button-style3-bg {
+    background-color: var(--button-style3-bg);
+  }
+  .button-style3-border:hover {
+    border-color: var(--button-style3-border-hover);
+  }
+  .button-style3-text:hover {
+    color: var(--button-style3-color-hover);
+  }
+  .button-style3-bg:hover {
+    background-color: var(--button-style3-bg-hover);
+  }
+
+  .button-disabled-border {
+    border-color: var(--button-disabled-border);
+  }
+  .button-disabled-text {
+    color: var(--button-disabled-color);
+  }
+  .button-disabled-bg {
+    background-color: var(--button-disabled-bg);
+  }
+  input:-internal-autofill-selected {
+    -webkit-box-shadow: 0 0 0 1000px var(--input-bg) inset !important;
+    background-clip: content-box !important;
+    background-color: var(--input-bg) !important;
+    color: var(--input-text) !important;
+  }
+  .input-bg {
+    background-color: var(--input-bg);
+  }
+  .input-white-bg {
+    background-color: #ffffff;
+  }
+  .input-text {
+    color: var(--input-text);
+  }
+  .input-disabled-text {
+    color: var(--input-disabled-placeholder);
+  }
+  .input-disabled-bg {
+    background-color: var(--input-disabled-bg);
+  }
+  .select-option-text {
+    color: var(--colors-select-option-text);
+  }
+  .select-option-text:hover {
+    color: var(--colors-secondary-900)
+  }
+  .select-option-bg {
+    background-color: var(--select-option-bg);
+  }
+  .select-border {
+    border: 1px solid var(--colors-select-option-border);
+  }
+  .select-option-transition {
+    transition-property: max-height, border;
+    transition-timing-function: ease-in-out;
+    transition-duration: 100ms;
+  }
+}
+
+.CalenderBox .react-datepicker-wrapper,
+.CalenderBox .react-datepicker__input-container {
+  width: 100%;
+  height: 100%;
+}
+
+.CalenderBox .react-datepicker-wrapper input[type='text'] {
+  width: 100%;
+  height: 100%;
+  padding: 12px 16px;
+  color: var(--colors-calendar-text);
+  border: 0;
+  cursor: pointer;
+}
+
+.CalenderBox .react-datepicker-wrapper:after {
+  content: url('/icons/calendar.svg');
+  position: absolute;
+  top: calc(50% - 12px);
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.CalenderBox .react-datepicker-wrapper input[type='text']:focus {
+  color: var(--colors-calendar-text);
+}
+
+.Calender.react-datepicker {
+  @apply rounded-none border-calendar-border p-4;
+}
+
+.Calender .react-datepicker__header,
+.Calender
+  .react-datepicker__header:not(.react-datepicker__header--has-time-select) {
+  @apply border-b-0 py-0;
+  background-color: var(--colors-calendar-selected-text);
+}
+
+.Calender .react-datepicker__day-names .react-datepicker__day-name {
+  color: var(--colors-calendar-text);
+}
+
+.Calender .react-datepicker__day-name,
+.Calender .react-datepicker__day,
+.Calender .react-datepicker__time-name {
+  position: relative;
+  width: 42px;
+  height: 36px;
+  margin: 8px 0;
+  font-size: 14px;
+  line-height: 36px;
+  border-radius: 0;
+  color: var(--colors-calendar-text);
+}
+
+.Calender .react-datepicker__day span {
+  display: inline-block;
+  width: 42px;
+  height: 36px;
+}
+
+.Calender .react-datepicker__day--keyboard-selected,
+.Calender
+  .react-datepicker__day--in-selecting-range:not(
+    .react-datepicker__day--in-range,
+    .react-datepicker__month-text--in-range,
+    .react-datepicker__quarter-text--in-range,
+    .react-datepicker__year-text--in-range
+  ) {
+  background-color: var(--colors-calendar-range-bg);
+}
+
+.Calender .react-datepicker__week .react-datepicker__day:first-child,
+.Calender
+  .react-datepicker__week
+  .react-datepicker__day--range-start.react-datepicker__day:last-child:not(
+    .react-datepicker__day--keyboard-selected
+  ),
+.Calender .react-datepicker__day--range-start {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.Calender .react-datepicker__week .react-datepicker__day:first-child:hover,
+.Calender
+  .react-datepicker__day--range-start.react-datepicker__day--in-range:hover {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.Calender
+  .react-datepicker__week
+  .react-datepicker__day--range-start.react-datepicker__day:last-child:not(
+    .react-datepicker__day--keyboard-selected
+  )
+  span,
+.Calender .react-datepicker__day--range-start span,
+.Calender
+  .react-datepicker__week
+  .react-datepicker__day--range-start.react-datepicker__day:last-child:not(
+    .react-datepicker__day--keyboard-selected
+  )
+  span,
+.Calender .react-datepicker__day--range-start span {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.Calender .react-datepicker__week .react-datepicker__day:last-child,
+.Calender
+  .react-datepicker__week
+  .react-datepicker__day--range-end.react-datepicker__day:first-child:not(
+    .react-datepicker__day--keyboard-selected
+  ),
+.Calender
+  .react-datepicker__week
+  .react-datepicker__day--range-end.react-datepicker__day--selected,
+.Calender .react-datepicker__day--range-end {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.Calender .react-datepicker__week .react-datepicker__day:last-child:hover,
+.Calender
+  .react-datepicker__day--range-end.react-datepicker__day--in-range:hover {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.Calender .react-datepicker__day--range-start.react-datepicker__day--in-range,
+.Calender .react-datepicker__day--range-end.react-datepicker__day--in-range {
+  color: var(--colors-calendar-selected-text);
+  background-color: var(--colors-calendar-selected-bg);
+}
+
+.Calender
+  .react-datepicker__week
+  .react-datepicker__day--range-end.react-datepicker__day--selected
+  span,
+.Calender .react-datepicker__day--range-end span,
+.Calender
+  .react-datepicker__week
+  .react-datepicker__day--range-end.react-datepicker__day--selected
+  span,
+.Calender .react-datepicker__day--range-end span {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.Calender .react-datepicker__day--in-range,
+.Calender .react-datepicker__day--in-range:hover {
+  background-color: var(--colors-calendar-range-bg);
+}
+.Calender .react-datepicker__day--in-range:hover {
+  border-radius: 4px;
+}
+
+.Calender .react-datepicker__month {
+  margin: 0 10px 10px 10px;
+}
+
+.Calender .react-datepicker__day--today,
+.Calender .react-datepicker__month-text--today,
+.Calender .react-datepicker__quarter-text--today,
+.Calender .react-datepicker__year-text--today {
+  font-weight: 400;
+  color: var(--colors-calendar-today-text);
+}
+.Calender .react-datepicker__day--today span,
+.Calender .react-datepicker__month-text--today span,
+.Calender .react-datepicker__quarter-text--today span,
+.Calender .react-datepicker__year-text--today span {
+  background-color: var(--colors-calendar-today-bg);
+  border-radius: 4px;
+}
+
+.Calender .react-datepicker__day--outside-month {
+  color: var(--colors-calendar-outside);
+}
+
+.Calender
+  .react-datepicker__day--selected:not(
+    .react-datepicker__day--in-range,
+    .react-datepicker__day--in-selecting-range
+  ) {
+  border-radius: 4px;
+  color: var(--colors-calendar-selected-text);
+  background-color: var(--colors-calendar-selected-bg);
+}
+
+.Calender .react-datepicker__day:not(.react-datepicker__day--in-range):hover {
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.Calender .react-datepicker__day--selected span,
+.Calender .react-datepicker__day:hover span,
+.Calender .react-datepicker__day--in-selecting-range:hover span {
+  color: var(--colors-calendar-selected-text);
+  background-color: var(--colors-calendar-selected-bg);
+  border-radius: 4px;
+}
+
+.Calender
+  .react-datepicker__month--selecting-range
+  .react-datepicker__day--in-range:not(
+    .react-datepicker__day--in-selecting-range,
+    .react-datepicker__month-text--in-selecting-range,
+    .react-datepicker__quarter-text--in-selecting-range,
+    .react-datepicker__year-text--in-selecting-range
+  ) {
+  color: var(--colors-calendar-range-text);
+  background-color: var(--colors-calendar-range-bg);
+}
+
+.Calender .react-datepicker__day--disabled {
+  color: rgba(0, 0, 0, 0.3);
+}

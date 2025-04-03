@@ -1,0 +1,204 @@
+import { Meta, Canvas } from '@storybook/blocks'
+import * as Input from './Input.stories'
+
+<Meta title="Input" name="Docs" of={Input} />
+
+# Input
+
+### Props
+
+<table>
+  <thead>
+    <tr>
+      <th>Props</th>
+      <th>default</th>
+      <th>value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <th>style</th>
+       <td>'text'</td>
+       <td>'text' | 'password' | 'delete' | 'button'</td>
+       <td>Input 의 스타일</td>
+    </tr>
+    <tr>
+      <th>type</th>
+      <td>'text'</td>
+      <td>string</td>
+      <td>input 의 html 타입</td>
+    </tr>
+    <tr>
+      <th>label</th>
+      <td></td>
+      <td>string</td>
+      <td>required=true 나 register 선언시 * 표시</td>
+    </tr>
+    <tr>
+      <th>className</th>
+      <td>''</td>
+      <td>string</td>
+      <td>컴포넌트 최상단 wrapper에 적용</td>
+    </tr>
+    <tr>
+      <th>width</th>
+      <td></td>
+      <td>string</td>
+      <td>컴포넌트 최상단 wrapper의 가로 사이즈</td>
+    </tr>
+    <tr>
+      <th>height</th>
+      <td></td>
+      <td>string</td>
+      <td>컴포넌트 최상단 wrapper의 세로 사이즈</td>
+    </tr>
+    <tr>
+      <th>inputClassName</th>
+      <td>''</td>
+      <td>string</td>
+      <td>input(아이콘 영역 포함) 클래스</td>
+    </tr>
+    <tr>
+      <th>labelClassName</th>
+      <td>''</td>
+      <td>string</td>
+      <td>라벨 클래스 적용(기본 text-base,mb-[12px]는 미적용됨)<br />no-required는 * 제거 할수있는 클래스</td>
+    </tr>
+    <tr>
+      <th>disabled</th>
+      <td></td>
+      <td>boolean</td>
+      <td>입력 비활성화</td>
+    </tr>
+    <tr>
+      <th>size</th>
+      <td></td>
+      <td>'sm' | 'md' | 'lg'</td>
+      <td>
+        input 크기 조절<br />
+        size 미입력시 반응형<br />
+        sm: height- 36px, font size - 14px<br />
+        md: height- 44px, font size - 16px<br />
+        lg: height- 52px, font size - 16px
+      </td>
+    </tr>
+    <tr>
+      <th>register</th>
+      <td></td>
+      <td>UseFormRegisterReturn</td>
+      <td>react-hook-form 사용시 등록</td>
+    </tr>
+    <tr>
+      <th>readOnly</th>
+      <td></td>
+      <td>boolean</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>required</th>
+      <td></td>
+      <td>boolean</td>
+      <td>label 에 필수 표시 (*) 및 빈 값 검증<br />register나 pattern 미사용시엔 빈값 검증 ref 셋팅 필요</td>
+    </tr>
+    <tr>
+      <th>ref</th>
+      <td></td>
+      <td>
+        import Input, \{InputHandle\} '컴포넌트 경로'<br />
+        const 변수명 = useRef&lt;InputHandle&gt;(null)<br />
+        변수명.current?.focus()<br />
+        변수명.current?.blur()<br />
+        변수명.current?.getValue()<br />
+        변수명.current?.validate()
+      </td>
+      <td>ref=\{변수명\} 로 focus, blur, getValue, validate 메서드 접근</td>
+    </tr>
+    <tr>
+      <th>pattern</th>
+      <td></td>
+      <td>'userId' | 'password' | 'email' | 'phone' | 'tel' | 'date' | 'onlyNumber'</td>
+      <td>
+        미리 정의된 정규식으로 유효성 검증<br />
+        required 미사용시 빈값 검증 안함<br />
+        userId: 영문자+숫자 조합 (6~20자)<br />
+        password: 영문+숫자+특수문자 조합 (10~31자)<br />
+        email: 이메일 형식<br />
+        phone: 010-1234-5678 형식<br />
+        tel: 10~11자리 숫자<br />
+        date: YYYY-MM-DD 형식<br />
+        onlyNumber: 숫자만 입력 가능
+      </td>
+    </tr>
+    <tr>
+      <th>validateOnChange</th>
+      <td>false</td>
+      <td>boolean</td>
+      <td>
+        입력 중 실시간 검증 실행<br />
+        false 일땐 포커스 아웃으로 검증됨<br />
+        <b>pattern 이나 required 가 설정된 경우에만 사용할 수 있음</b>
+      </td>
+    </tr>
+    <tr>
+      <th>error</th>
+      <td></td>
+      <td>string</td>
+      <td>유효성 검사 실패 시 메시지 표시<br />pattern 은 내부에 설정 되어 있으므로 필요 없음</td>
+    </tr>
+    <tr>
+      <th>buttonText</th>
+      <td>확인</td>
+      <td>string</td>
+      <td>style='button' 일때 버튼의 내용 변경</td>
+    </tr>
+    <tr>
+      <th>placeholder</th>
+      <td>정보를 입력해주세요.</td>
+      <td>string</td>
+      <td>placeholder 텍스트</td>
+    </tr>
+
+    <tr>
+      <th>iconClick</th>
+      <td></td>
+      <td>() => void</td>
+      <td>
+          style='delete' 일때 아이콘 클릭<br />
+          style='password' 일땐 input type 전환 및 아이콘 on/off 자동 적용으로 필요 없음
+      </td>
+    </tr>
+    <tr>
+      <th>buttonClick</th>
+      <td></td>
+      <td>() => void</td>
+      <td>style='button' 일때 버튼 클릭</td>
+    </tr>
+    <tr>
+      <th>onChange</th>
+      <td></td>
+      <td>(e: ChangeEvent&lt;HTMLInputElement&gt;) => void</td>
+      <td>입력값 변경 핸들러</td>
+    </tr>
+    <tr>
+      <th>onFocus</th>
+      <td></td>
+      <td>() => void</td>
+      <td>입력 필드 포커스 이벤트</td>
+    </tr>
+    <tr>
+      <th>onBlur</th>
+      <td></td>
+      <td>() => void</td>
+      <td>입력 필드 포커스 아웃 이벤트</td>
+    </tr>
+  </tbody>
+</table>
+
+<section className="grid grid-cols-2 gap-4">
+    <Canvas of={Input.Text} />
+    <Canvas of={Input.Password} />
+    <Canvas of={Input.Delete} />
+    <Canvas of={Input.Button} />
+</section>
+

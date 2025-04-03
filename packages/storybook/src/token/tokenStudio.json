@@ -1,0 +1,2954 @@
+{
+  "colors": {
+    "primary": {
+      "50": {
+        "value": "#eefaeb",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#eefaeb",
+          "type": "color"
+        },
+        "name": "colors-primary-50",
+        "attributes": {},
+        "path": [
+          "colors",
+          "primary",
+          "50"
+        ]
+      },
+      "100": {
+        "value": "#d5f2cc",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#d5f2cc",
+          "type": "color"
+        },
+        "name": "colors-primary-100",
+        "attributes": {},
+        "path": [
+          "colors",
+          "primary",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#bae9ab",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#bae9ab",
+          "type": "color"
+        },
+        "name": "colors-primary-200",
+        "attributes": {},
+        "path": [
+          "colors",
+          "primary",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#9de089",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#9de089",
+          "type": "color"
+        },
+        "name": "colors-primary-300",
+        "attributes": {},
+        "path": [
+          "colors",
+          "primary",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#86d96e",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#86d96e",
+          "type": "color"
+        },
+        "name": "colors-primary-400",
+        "attributes": {},
+        "path": [
+          "colors",
+          "primary",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#6fd154",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#6fd154",
+          "type": "color"
+        },
+        "name": "colors-primary-500",
+        "attributes": {},
+        "path": [
+          "colors",
+          "primary",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#60c04b",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#60c04b",
+          "type": "color"
+        },
+        "name": "colors-primary-600",
+        "attributes": {},
+        "path": [
+          "colors",
+          "primary",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#4bac41",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#4bac41",
+          "type": "color"
+        },
+        "name": "colors-primary-700",
+        "attributes": {},
+        "path": [
+          "colors",
+          "primary",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#379737",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#379737",
+          "type": "color"
+        },
+        "name": "colors-primary-800",
+        "attributes": {},
+        "path": [
+          "colors",
+          "primary",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#007424",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#007424",
+          "type": "color"
+        },
+        "name": "colors-primary-900",
+        "attributes": {},
+        "path": [
+          "colors",
+          "primary",
+          "900"
+        ]
+      },
+      "error": {
+        "value": "#dc063a",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#dc063a",
+          "type": "color"
+        },
+        "name": "colors-primary-error",
+        "attributes": {},
+        "path": [
+          "colors",
+          "primary",
+          "error"
+        ]
+      }
+    },
+    "gold": {
+      "50": {
+        "value": "#faf4ee",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#faf4ee",
+          "type": "color"
+        },
+        "name": "colors-gold-50",
+        "attributes": {},
+        "path": [
+          "colors",
+          "gold",
+          "50"
+        ]
+      },
+      "100": {
+        "value": "#e7c39b",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#e7c39b",
+          "type": "color"
+        },
+        "name": "colors-gold-100",
+        "attributes": {},
+        "path": [
+          "colors",
+          "gold",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#c69e74",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#c69e74",
+          "type": "color"
+        },
+        "name": "colors-gold-200",
+        "attributes": {},
+        "path": [
+          "colors",
+          "gold",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#a27b4c",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#a27b4c",
+          "type": "color"
+        },
+        "name": "colors-gold-300",
+        "attributes": {},
+        "path": [
+          "colors",
+          "gold",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#a27b4c",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#a27b4c",
+          "type": "color"
+        },
+        "name": "colors-gold-400",
+        "attributes": {},
+        "path": [
+          "colors",
+          "gold",
+          "400"
+        ]
+      },
+      "button": {
+        "style1-default": {
+          "border": {
+            "value": "#c69e74",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#c69e74",
+              "type": "color"
+            },
+            "name": "colors-gold-button-style1-default-border",
+            "attributes": {},
+            "path": [
+              "colors",
+              "gold",
+              "button",
+              "style1-default",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#ffffff",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#ffffff",
+              "type": "color"
+            },
+            "name": "colors-gold-button-style1-default-text",
+            "attributes": {},
+            "path": [
+              "colors",
+              "gold",
+              "button",
+              "style1-default",
+              "text"
+            ]
+          },
+          "bg": {
+            "value": "#c69e74",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#c69e74",
+              "type": "color"
+            },
+            "name": "colors-gold-button-style1-default-bg",
+            "attributes": {},
+            "path": [
+              "colors",
+              "gold",
+              "button",
+              "style1-default",
+              "bg"
+            ]
+          }
+        },
+        "style1-hover": {
+          "border": {
+            "value": "#e7c39b",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#e7c39b",
+              "type": "color"
+            },
+            "name": "colors-gold-button-style1-hover-border",
+            "attributes": {},
+            "path": [
+              "colors",
+              "gold",
+              "button",
+              "style1-hover",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#ffffff",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#ffffff",
+              "type": "color"
+            },
+            "name": "colors-gold-button-style1-hover-text",
+            "attributes": {},
+            "path": [
+              "colors",
+              "gold",
+              "button",
+              "style1-hover",
+              "text"
+            ]
+          },
+          "bg": {
+            "value": "#e7c39b",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#e7c39b",
+              "type": "color"
+            },
+            "name": "colors-gold-button-style1-hover-bg",
+            "attributes": {},
+            "path": [
+              "colors",
+              "gold",
+              "button",
+              "style1-hover",
+              "bg"
+            ]
+          }
+        },
+        "style2-default": {
+          "border": {
+            "value": "#c69e74",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#c69e74",
+              "type": "color"
+            },
+            "name": "colors-gold-button-style2-default-border",
+            "attributes": {},
+            "path": [
+              "colors",
+              "gold",
+              "button",
+              "style2-default",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#c69e74",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#c69e74",
+              "type": "color"
+            },
+            "name": "colors-gold-button-style2-default-text",
+            "attributes": {},
+            "path": [
+              "colors",
+              "gold",
+              "button",
+              "style2-default",
+              "text"
+            ]
+          },
+          "bg": {
+            "value": "#ffffff",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#ffffff",
+              "type": "color"
+            },
+            "name": "colors-gold-button-style2-default-bg",
+            "attributes": {},
+            "path": [
+              "colors",
+              "gold",
+              "button",
+              "style2-default",
+              "bg"
+            ]
+          }
+        },
+        "style2-hover": {
+          "border": {
+            "value": "#faf4ee",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#faf4ee",
+              "type": "color"
+            },
+            "name": "colors-gold-button-style2-hover-border",
+            "attributes": {},
+            "path": [
+              "colors",
+              "gold",
+              "button",
+              "style2-hover",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#c69e74",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#c69e74",
+              "type": "color"
+            },
+            "name": "colors-gold-button-style2-hover-text",
+            "attributes": {},
+            "path": [
+              "colors",
+              "gold",
+              "button",
+              "style2-hover",
+              "text"
+            ]
+          },
+          "bg": {
+            "value": "#faf4ee",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#faf4ee",
+              "type": "color"
+            },
+            "name": "colors-gold-button-style2-hover-bg",
+            "attributes": {},
+            "path": [
+              "colors",
+              "gold",
+              "button",
+              "style2-hover",
+              "bg"
+            ]
+          }
+        }
+      }
+    },
+    "emerald": {
+      "50": {
+        "value": "#e6f4f9",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#e6f4f9",
+          "type": "color"
+        },
+        "name": "colors-emerald-50",
+        "attributes": {},
+        "path": [
+          "colors",
+          "emerald",
+          "50"
+        ]
+      },
+      "100": {
+        "value": "#b5eafb",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#b5eafb",
+          "type": "color"
+        },
+        "name": "colors-emerald-100",
+        "attributes": {},
+        "path": [
+          "colors",
+          "emerald",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#86ddf7",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#86ddf7",
+          "type": "color"
+        },
+        "name": "colors-emerald-200",
+        "attributes": {},
+        "path": [
+          "colors",
+          "emerald",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#57cff1",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#57cff1",
+          "type": "color"
+        },
+        "name": "colors-emerald-300",
+        "attributes": {},
+        "path": [
+          "colors",
+          "emerald",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#39c5eb",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#39c5eb",
+          "type": "color"
+        },
+        "name": "colors-emerald-400",
+        "attributes": {},
+        "path": [
+          "colors",
+          "emerald",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#2dbae4",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#2dbae4",
+          "type": "color"
+        },
+        "name": "colors-emerald-500",
+        "attributes": {},
+        "path": [
+          "colors",
+          "emerald",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#27abd0",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#27abd0",
+          "type": "color"
+        },
+        "name": "colors-emerald-600",
+        "attributes": {},
+        "path": [
+          "colors",
+          "emerald",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#1c96b5",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#1c96b5",
+          "type": "color"
+        },
+        "name": "colors-emerald-700",
+        "attributes": {},
+        "path": [
+          "colors",
+          "emerald",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#13829c",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#13829c",
+          "type": "color"
+        },
+        "name": "colors-emerald-800",
+        "attributes": {},
+        "path": [
+          "colors",
+          "emerald",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#00606f",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#00606f",
+          "type": "color"
+        },
+        "name": "colors-emerald-900",
+        "attributes": {},
+        "path": [
+          "colors",
+          "emerald",
+          "900"
+        ]
+      },
+      "button": {
+        "style1-default": {
+          "border": {
+            "value": "#1c96b5",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#1c96b5",
+              "type": "color"
+            },
+            "name": "colors-emerald-button-style1-default-border",
+            "attributes": {},
+            "path": [
+              "colors",
+              "emerald",
+              "button",
+              "style1-default",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#ffffff",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#ffffff",
+              "type": "color"
+            },
+            "name": "colors-emerald-button-style1-default-text",
+            "attributes": {},
+            "path": [
+              "colors",
+              "emerald",
+              "button",
+              "style1-default",
+              "text"
+            ]
+          },
+          "bg": {
+            "value": "#1c96b5",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#1c96b5",
+              "type": "color"
+            },
+            "name": "colors-emerald-button-style1-default-bg",
+            "attributes": {},
+            "path": [
+              "colors",
+              "emerald",
+              "button",
+              "style1-default",
+              "bg"
+            ]
+          }
+        },
+        "style1-hover": {
+          "border": {
+            "value": "#2dbae4",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#2dbae4",
+              "type": "color"
+            },
+            "name": "colors-emerald-button-style1-hover-border",
+            "attributes": {},
+            "path": [
+              "colors",
+              "emerald",
+              "button",
+              "style1-hover",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#ffffff",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#ffffff",
+              "type": "color"
+            },
+            "name": "colors-emerald-button-style1-hover-text",
+            "attributes": {},
+            "path": [
+              "colors",
+              "emerald",
+              "button",
+              "style1-hover",
+              "text"
+            ]
+          },
+          "bg": {
+            "value": "#2dbae4",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#2dbae4",
+              "type": "color"
+            },
+            "name": "colors-emerald-button-style1-hover-bg",
+            "attributes": {},
+            "path": [
+              "colors",
+              "emerald",
+              "button",
+              "style1-hover",
+              "bg"
+            ]
+          }
+        },
+        "style2-default": {
+          "border": {
+            "value": "#1c96b5",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#1c96b5",
+              "type": "color"
+            },
+            "name": "colors-emerald-button-style2-default-border",
+            "attributes": {},
+            "path": [
+              "colors",
+              "emerald",
+              "button",
+              "style2-default",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#1c96b5",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#1c96b5",
+              "type": "color"
+            },
+            "name": "colors-emerald-button-style2-default-text",
+            "attributes": {},
+            "path": [
+              "colors",
+              "emerald",
+              "button",
+              "style2-default",
+              "text"
+            ]
+          },
+          "bg": {
+            "value": "#ffffff",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#ffffff",
+              "type": "color"
+            },
+            "name": "colors-emerald-button-style2-default-bg",
+            "attributes": {},
+            "path": [
+              "colors",
+              "emerald",
+              "button",
+              "style2-default",
+              "bg"
+            ]
+          }
+        },
+        "style2-hover": {
+          "border": {
+            "value": "#e6f4f9",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#e6f4f9",
+              "type": "color"
+            },
+            "name": "colors-emerald-button-style2-hover-border",
+            "attributes": {},
+            "path": [
+              "colors",
+              "emerald",
+              "button",
+              "style2-hover",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#1c96b5",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#1c96b5",
+              "type": "color"
+            },
+            "name": "colors-emerald-button-style2-hover-text",
+            "attributes": {},
+            "path": [
+              "colors",
+              "emerald",
+              "button",
+              "style2-hover",
+              "text"
+            ]
+          },
+          "bg": {
+            "value": "#e6f4f9",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#e6f4f9",
+              "type": "color"
+            },
+            "name": "colors-emerald-button-style2-hover-bg",
+            "attributes": {},
+            "path": [
+              "colors",
+              "emerald",
+              "button",
+              "style2-hover",
+              "bg"
+            ]
+          }
+        }
+      }
+    },
+    "orange": {
+      "50": {
+        "value": "#f6f1ee",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#f6f1ee",
+          "type": "color"
+        },
+        "name": "colors-orange-50",
+        "attributes": {},
+        "path": [
+          "colors",
+          "orange",
+          "50"
+        ]
+      },
+      "100": {
+        "value": "#fdebb3",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#fdebb3",
+          "type": "color"
+        },
+        "name": "colors-orange-100",
+        "attributes": {},
+        "path": [
+          "colors",
+          "orange",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#fcde83",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#fcde83",
+          "type": "color"
+        },
+        "name": "colors-orange-200",
+        "attributes": {},
+        "path": [
+          "colors",
+          "orange",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#fbd252",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#fbd252",
+          "type": "color"
+        },
+        "name": "colors-orange-300",
+        "attributes": {},
+        "path": [
+          "colors",
+          "orange",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#fac72e",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#fac72e",
+          "type": "color"
+        },
+        "name": "colors-orange-400",
+        "attributes": {},
+        "path": [
+          "colors",
+          "orange",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#f9bd17",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#f9bd17",
+          "type": "color"
+        },
+        "name": "colors-orange-500",
+        "attributes": {},
+        "path": [
+          "colors",
+          "orange",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#f9b012",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#f9b012",
+          "type": "color"
+        },
+        "name": "colors-orange-600",
+        "attributes": {},
+        "path": [
+          "colors",
+          "orange",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#f99d10",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#f99d10",
+          "type": "color"
+        },
+        "name": "colors-orange-700",
+        "attributes": {},
+        "path": [
+          "colors",
+          "orange",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#f88d0e",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#f88d0e",
+          "type": "color"
+        },
+        "name": "colors-orange-800",
+        "attributes": {},
+        "path": [
+          "colors",
+          "orange",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#f76e0c",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#f76e0c",
+          "type": "color"
+        },
+        "name": "colors-orange-900",
+        "attributes": {},
+        "path": [
+          "colors",
+          "orange",
+          "900"
+        ]
+      },
+      "button": {
+        "style1-default": {
+          "border": {
+            "value": "#f76e0c",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#f76e0c",
+              "type": "color"
+            },
+            "name": "colors-orange-button-style1-default-border",
+            "attributes": {},
+            "path": [
+              "colors",
+              "orange",
+              "button",
+              "style1-default",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#ffffff",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#ffffff",
+              "type": "color"
+            },
+            "name": "colors-orange-button-style1-default-text",
+            "attributes": {},
+            "path": [
+              "colors",
+              "orange",
+              "button",
+              "style1-default",
+              "text"
+            ]
+          },
+          "bg": {
+            "value": "#f76e0c",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#f76e0c",
+              "type": "color"
+            },
+            "name": "colors-orange-button-style1-default-bg",
+            "attributes": {},
+            "path": [
+              "colors",
+              "orange",
+              "button",
+              "style1-default",
+              "bg"
+            ]
+          }
+        },
+        "style1-hover": {
+          "border": {
+            "value": "#f99d10",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#f99d10",
+              "type": "color"
+            },
+            "name": "colors-orange-button-style1-hover-border",
+            "attributes": {},
+            "path": [
+              "colors",
+              "orange",
+              "button",
+              "style1-hover",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#ffffff",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#ffffff",
+              "type": "color"
+            },
+            "name": "colors-orange-button-style1-hover-text",
+            "attributes": {},
+            "path": [
+              "colors",
+              "orange",
+              "button",
+              "style1-hover",
+              "text"
+            ]
+          },
+          "bg": {
+            "value": "#f99d10",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#f99d10",
+              "type": "color"
+            },
+            "name": "colors-orange-button-style1-hover-bg",
+            "attributes": {},
+            "path": [
+              "colors",
+              "orange",
+              "button",
+              "style1-hover",
+              "bg"
+            ]
+          }
+        },
+        "style2-default": {
+          "border": {
+            "value": "#f76e0c",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#f76e0c",
+              "type": "color"
+            },
+            "name": "colors-orange-button-style2-default-border",
+            "attributes": {},
+            "path": [
+              "colors",
+              "orange",
+              "button",
+              "style2-default",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#f76e0c",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#f76e0c",
+              "type": "color"
+            },
+            "name": "colors-orange-button-style2-default-text",
+            "attributes": {},
+            "path": [
+              "colors",
+              "orange",
+              "button",
+              "style2-default",
+              "text"
+            ]
+          },
+          "bg": {
+            "value": "#ffffff",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#ffffff",
+              "type": "color"
+            },
+            "name": "colors-orange-button-style2-default-bg",
+            "attributes": {},
+            "path": [
+              "colors",
+              "orange",
+              "button",
+              "style2-default",
+              "bg"
+            ]
+          }
+        },
+        "style2-hover": {
+          "border": {
+            "value": "#f6f1ee",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#f6f1ee",
+              "type": "color"
+            },
+            "name": "colors-orange-button-style2-hover-border",
+            "attributes": {},
+            "path": [
+              "colors",
+              "orange",
+              "button",
+              "style2-hover",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#f76e0c",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#f76e0c",
+              "type": "color"
+            },
+            "name": "colors-orange-button-style2-hover-text",
+            "attributes": {},
+            "path": [
+              "colors",
+              "orange",
+              "button",
+              "style2-hover",
+              "text"
+            ]
+          },
+          "bg": {
+            "value": "#f6f1ee",
+            "type": "color",
+            "filePath": "src/token/tokenBuild.json",
+            "isSource": true,
+            "original": {
+              "value": "#f6f1ee",
+              "type": "color"
+            },
+            "name": "colors-orange-button-style2-hover-bg",
+            "attributes": {},
+            "path": [
+              "colors",
+              "orange",
+              "button",
+              "style2-hover",
+              "bg"
+            ]
+          }
+        }
+      }
+    },
+    "secondary": {
+      "100": {
+        "value": "#f5f5f5",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#f5f5f5",
+          "type": "color"
+        },
+        "name": "colors-secondary-100",
+        "attributes": {},
+        "path": [
+          "colors",
+          "secondary",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#ebebec",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#ebebec",
+          "type": "color"
+        },
+        "name": "colors-secondary-200",
+        "attributes": {},
+        "path": [
+          "colors",
+          "secondary",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#d8d8d9",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#d8d8d9",
+          "type": "color"
+        },
+        "name": "colors-secondary-300",
+        "attributes": {},
+        "path": [
+          "colors",
+          "secondary",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#c4c4c6",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#c4c4c6",
+          "type": "color"
+        },
+        "name": "colors-secondary-400",
+        "attributes": {},
+        "path": [
+          "colors",
+          "secondary",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#9d9da0",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#9d9da0",
+          "type": "color"
+        },
+        "name": "colors-secondary-500",
+        "attributes": {},
+        "path": [
+          "colors",
+          "secondary",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#76767b",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#76767b",
+          "type": "color"
+        },
+        "name": "colors-secondary-600",
+        "attributes": {},
+        "path": [
+          "colors",
+          "secondary",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#6d6d72",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#6d6d72",
+          "type": "color"
+        },
+        "name": "colors-secondary-700",
+        "attributes": {},
+        "path": [
+          "colors",
+          "secondary",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#3c3c43",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#3c3c43",
+          "type": "color"
+        },
+        "name": "colors-secondary-800",
+        "attributes": {},
+        "path": [
+          "colors",
+          "secondary",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#1d1d1f",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#1d1d1f",
+          "type": "color"
+        },
+        "name": "colors-secondary-900",
+        "attributes": {},
+        "path": [
+          "colors",
+          "secondary",
+          "900"
+        ]
+      }
+    },
+    "opacity": {
+      "4": {
+        "value": "#0000000a",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#0000000a",
+          "type": "color"
+        },
+        "name": "colors-opacity-4",
+        "attributes": {},
+        "path": [
+          "colors",
+          "opacity",
+          "4"
+        ]
+      },
+      "8": {
+        "value": "#00000014",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000014",
+          "type": "color"
+        },
+        "name": "colors-opacity-8",
+        "attributes": {},
+        "path": [
+          "colors",
+          "opacity",
+          "8"
+        ]
+      },
+      "12": {
+        "value": "#0000001f",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#0000001f",
+          "type": "color"
+        },
+        "name": "colors-opacity-12",
+        "attributes": {},
+        "path": [
+          "colors",
+          "opacity",
+          "12"
+        ]
+      },
+      "20": {
+        "value": "#00000033",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000033",
+          "type": "color"
+        },
+        "name": "colors-opacity-20",
+        "attributes": {},
+        "path": [
+          "colors",
+          "opacity",
+          "20"
+        ]
+      },
+      "30": {
+        "value": "#0000004d",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#0000004d",
+          "type": "color"
+        },
+        "name": "colors-opacity-30",
+        "attributes": {},
+        "path": [
+          "colors",
+          "opacity",
+          "30"
+        ]
+      },
+      "40": {
+        "value": "#00000066",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000066",
+          "type": "color"
+        },
+        "name": "colors-opacity-40",
+        "attributes": {},
+        "path": [
+          "colors",
+          "opacity",
+          "40"
+        ]
+      },
+      "50": {
+        "value": "#00000080",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000080",
+          "type": "color"
+        },
+        "name": "colors-opacity-50",
+        "attributes": {},
+        "path": [
+          "colors",
+          "opacity",
+          "50"
+        ]
+      },
+      "60": {
+        "value": "#00000099",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000099",
+          "type": "color"
+        },
+        "name": "colors-opacity-60",
+        "attributes": {},
+        "path": [
+          "colors",
+          "opacity",
+          "60"
+        ]
+      },
+      "70": {
+        "value": "#000000b3",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#000000b3",
+          "type": "color"
+        },
+        "name": "colors-opacity-70",
+        "attributes": {},
+        "path": [
+          "colors",
+          "opacity",
+          "70"
+        ]
+      },
+      "80": {
+        "value": "#000000cc",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#000000cc",
+          "type": "color"
+        },
+        "name": "colors-opacity-80",
+        "attributes": {},
+        "path": [
+          "colors",
+          "opacity",
+          "80"
+        ]
+      }
+    },
+    "button": {
+      "style1-default": {
+        "border": {
+          "value": "#6fd154",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#6fd154",
+            "type": "color"
+          },
+          "name": "colors-button-style1-default-border",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style1-default",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#ffffff",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "name": "colors-button-style1-default-text",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style1-default",
+            "text"
+          ]
+        },
+        "bg": {
+          "value": "#6fd154",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#6fd154",
+            "type": "color"
+          },
+          "name": "colors-button-style1-default-bg",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style1-default",
+            "bg"
+          ]
+        }
+      },
+      "style1-hover": {
+        "border": {
+          "value": "#9de089",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#9de089",
+            "type": "color"
+          },
+          "name": "colors-button-style1-hover-border",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style1-hover",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#ffffff",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "name": "colors-button-style1-hover-text",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style1-hover",
+            "text"
+          ]
+        },
+        "bg": {
+          "value": "#9de089",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#9de089",
+            "type": "color"
+          },
+          "name": "colors-button-style1-hover-bg",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style1-hover",
+            "bg"
+          ]
+        }
+      },
+      "style2-default": {
+        "border": {
+          "value": "#6fd154",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#6fd154",
+            "type": "color"
+          },
+          "name": "colors-button-style2-default-border",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style2-default",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#6fd154",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#6fd154",
+            "type": "color"
+          },
+          "name": "colors-button-style2-default-text",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style2-default",
+            "text"
+          ]
+        },
+        "bg": {
+          "value": "#ffffff",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "name": "colors-button-style2-default-bg",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style2-default",
+            "bg"
+          ]
+        }
+      },
+      "style2-hover": {
+        "border": {
+          "value": "#eefaeb",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#eefaeb",
+            "type": "color"
+          },
+          "name": "colors-button-style2-hover-border",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style2-hover",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#6fd154",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#6fd154",
+            "type": "color"
+          },
+          "name": "colors-button-style2-hover-text",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style2-hover",
+            "text"
+          ]
+        },
+        "bg": {
+          "value": "#eefaeb",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#eefaeb",
+            "type": "color"
+          },
+          "name": "colors-button-style2-hover-bg",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style2-hover",
+            "bg"
+          ]
+        }
+      },
+      "style3-default": {
+        "border": {
+          "value": "#d8d8d9",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#d8d8d9",
+            "type": "color"
+          },
+          "name": "colors-button-style3-default-border",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style3-default",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#1d1d1f",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#1d1d1f",
+            "type": "color"
+          },
+          "name": "colors-button-style3-default-text",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style3-default",
+            "text"
+          ]
+        },
+        "bg": {
+          "value": "#ffffff",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "name": "colors-button-style3-default-bg",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style3-default",
+            "bg"
+          ]
+        }
+      },
+      "style3-hover": {
+        "border": {
+          "value": "#d8d8d9",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#d8d8d9",
+            "type": "color"
+          },
+          "name": "colors-button-style3-hover-border",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style3-hover",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#1d1d1f",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#1d1d1f",
+            "type": "color"
+          },
+          "name": "colors-button-style3-hover-text",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style3-hover",
+            "text"
+          ]
+        },
+        "bg": {
+          "value": "#ebebec",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#ebebec",
+            "type": "color"
+          },
+          "name": "colors-button-style3-hover-bg",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "style3-hover",
+            "bg"
+          ]
+        }
+      },
+      "disabled": {
+        "border": {
+          "value": "#ebebec",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#ebebec",
+            "type": "color"
+          },
+          "name": "colors-button-disabled-border",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "disabled",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#d8d8d9",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#d8d8d9",
+            "type": "color"
+          },
+          "name": "colors-button-disabled-text",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "disabled",
+            "text"
+          ]
+        },
+        "bg": {
+          "value": "#ebebec",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#ebebec",
+            "type": "color"
+          },
+          "name": "colors-button-disabled-bg",
+          "attributes": {},
+          "path": [
+            "colors",
+            "button",
+            "disabled",
+            "bg"
+          ]
+        }
+      }
+    },
+    "icon": {
+      "black": {
+        "value": "#1d1d1f",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#1d1d1f",
+          "type": "color"
+        },
+        "name": "colors-icon-black",
+        "attributes": {},
+        "path": [
+          "colors",
+          "icon",
+          "black"
+        ]
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "name": "colors-icon-white",
+        "attributes": {},
+        "path": [
+          "colors",
+          "icon",
+          "white"
+        ]
+      },
+      "gray": {
+        "100": {
+          "value": "#f5f5f5",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#f5f5f5",
+            "type": "color"
+          },
+          "name": "colors-icon-gray-100",
+          "attributes": {},
+          "path": [
+            "colors",
+            "icon",
+            "gray",
+            "100"
+          ]
+        },
+        "200": {
+          "value": "#ebebec",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#ebebec",
+            "type": "color"
+          },
+          "name": "colors-icon-gray-200",
+          "attributes": {},
+          "path": [
+            "colors",
+            "icon",
+            "gray",
+            "200"
+          ]
+        },
+        "300": {
+          "value": "#d8d8d9",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#d8d8d9",
+            "type": "color"
+          },
+          "name": "colors-icon-gray-300",
+          "attributes": {},
+          "path": [
+            "colors",
+            "icon",
+            "gray",
+            "300"
+          ]
+        },
+        "500": {
+          "value": "#9d9da0",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#9d9da0",
+            "type": "color"
+          },
+          "name": "colors-icon-gray-500",
+          "attributes": {},
+          "path": [
+            "colors",
+            "icon",
+            "gray",
+            "500"
+          ]
+        },
+        "600": {
+          "value": "#76767b",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#76767b",
+            "type": "color"
+          },
+          "name": "colors-icon-gray-600",
+          "attributes": {},
+          "path": [
+            "colors",
+            "icon",
+            "gray",
+            "600"
+          ]
+        }
+      },
+      "red": {
+        "value": "#dc063a",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#dc063a",
+          "type": "color"
+        },
+        "name": "colors-icon-red",
+        "attributes": {},
+        "path": [
+          "colors",
+          "icon",
+          "red"
+        ]
+      },
+      "primery": {
+        "value": "#6fd154",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#6fd154",
+          "type": "color"
+        },
+        "name": "colors-icon-primery",
+        "attributes": {},
+        "path": [
+          "colors",
+          "icon",
+          "primery"
+        ]
+      },
+      "emerald": {
+        "value": "#2dbae4",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#2dbae4",
+          "type": "color"
+        },
+        "name": "colors-icon-emerald",
+        "attributes": {},
+        "path": [
+          "colors",
+          "icon",
+          "emerald"
+        ]
+      },
+      "gold": {
+        "value": "#c69e74",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#c69e74",
+          "type": "color"
+        },
+        "name": "colors-icon-gold",
+        "attributes": {},
+        "path": [
+          "colors",
+          "icon",
+          "gold"
+        ]
+      },
+      "orange": {
+        "value": "#f76e0c",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#f76e0c",
+          "type": "color"
+        },
+        "name": "colors-icon-orange",
+        "attributes": {},
+        "path": [
+          "colors",
+          "icon",
+          "orange"
+        ]
+      }
+    },
+    "input": {
+      "placeholder": {
+        "value": "#76767b",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#76767b",
+          "type": "color"
+        },
+        "name": "colors-input-placeholder",
+        "attributes": {},
+        "path": [
+          "colors",
+          "input",
+          "placeholder"
+        ]
+      },
+      "bg": {
+        "value": "#f5f5f5",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#f5f5f5",
+          "type": "color"
+        },
+        "name": "colors-input-bg",
+        "attributes": {},
+        "path": [
+          "colors",
+          "input",
+          "bg"
+        ]
+      },
+      "disabled": {
+        "bg": {
+          "value": "#ebebec",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#ebebec",
+            "type": "color"
+          },
+          "name": "colors-input-disabled-bg",
+          "attributes": {},
+          "path": [
+            "colors",
+            "input",
+            "disabled",
+            "bg"
+          ]
+        },
+        "placeholder": {
+          "value": "#d8d8d9",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#d8d8d9",
+            "type": "color"
+          },
+          "name": "colors-input-disabled-placeholder",
+          "attributes": {},
+          "path": [
+            "colors",
+            "input",
+            "disabled",
+            "placeholder"
+          ]
+        }
+      },
+      "message": {
+        "error": {
+          "value": "#dc063a",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#dc063a",
+            "type": "color"
+          },
+          "name": "colors-input-message-error",
+          "attributes": {},
+          "path": [
+            "colors",
+            "input",
+            "message",
+            "error"
+          ]
+        },
+        "text": {
+          "value": "#9d9da0",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#9d9da0",
+            "type": "color"
+          },
+          "name": "colors-input-message-text",
+          "attributes": {},
+          "path": [
+            "colors",
+            "input",
+            "message",
+            "text"
+          ]
+        }
+      },
+      "text": {
+        "value": "#1d1d1f",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#1d1d1f",
+          "type": "color"
+        },
+        "name": "colors-input-text",
+        "attributes": {},
+        "path": [
+          "colors",
+          "input",
+          "text"
+        ]
+      },
+      "border": {
+        "value": "#d8d8d9",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#d8d8d9",
+          "type": "color"
+        },
+        "name": "colors-input-border",
+        "attributes": {},
+        "path": [
+          "colors",
+          "input",
+          "border"
+        ]
+      }
+    },
+    "select": {
+      "option": {
+        "bg": {
+          "value": "#f5f5f5",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#f5f5f5",
+            "type": "color"
+          },
+          "name": "colors-select-option-bg",
+          "attributes": {},
+          "path": [
+            "colors",
+            "select",
+            "option",
+            "bg"
+          ]
+        }
+      }
+    },
+    "calendar": {
+      "title": {
+        "value": "#1d1d1f",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#1d1d1f",
+          "type": "color"
+        },
+        "name": "colors-calendar-title",
+        "attributes": {},
+        "path": [
+          "colors",
+          "calendar",
+          "title"
+        ]
+      },
+      "outside": {
+        "value": "#d8d8d9",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#d8d8d9",
+          "type": "color"
+        },
+        "name": "colors-calendar-outside",
+        "attributes": {},
+        "path": [
+          "colors",
+          "calendar",
+          "outside"
+        ]
+      },
+      "range": {
+        "text": {
+          "value": "#76767b",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#76767b",
+            "type": "color"
+          },
+          "name": "colors-calendar-range-text",
+          "attributes": {},
+          "path": [
+            "colors",
+            "calendar",
+            "range",
+            "text"
+          ]
+        },
+        "bg": {
+          "value": "#f5f5f5",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#f5f5f5",
+            "type": "color"
+          },
+          "name": "colors-calendar-range-bg",
+          "attributes": {},
+          "path": [
+            "colors",
+            "calendar",
+            "range",
+            "bg"
+          ]
+        }
+      },
+      "selected": {
+        "text": {
+          "value": "#ffffff",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "name": "colors-calendar-selected-text",
+          "attributes": {},
+          "path": [
+            "colors",
+            "calendar",
+            "selected",
+            "text"
+          ]
+        },
+        "bg": {
+          "value": "#2dbae4",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#2dbae4",
+            "type": "color"
+          },
+          "name": "colors-calendar-selected-bg",
+          "attributes": {},
+          "path": [
+            "colors",
+            "calendar",
+            "selected",
+            "bg"
+          ]
+        }
+      },
+      "today": {
+        "text": {
+          "value": "#1d1d1f",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#1d1d1f",
+            "type": "color"
+          },
+          "name": "colors-calendar-today-text",
+          "attributes": {},
+          "path": [
+            "colors",
+            "calendar",
+            "today",
+            "text"
+          ]
+        },
+        "bg": {
+          "value": "#e6f4f9",
+          "type": "color",
+          "filePath": "src/token/tokenBuild.json",
+          "isSource": true,
+          "original": {
+            "value": "#e6f4f9",
+            "type": "color"
+          },
+          "name": "colors-calendar-today-bg",
+          "attributes": {},
+          "path": [
+            "colors",
+            "calendar",
+            "today",
+            "bg"
+          ]
+        }
+      },
+      "text": {
+        "value": "#76767b",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#76767b",
+          "type": "color"
+        },
+        "name": "colors-calendar-text",
+        "attributes": {},
+        "path": [
+          "colors",
+          "calendar",
+          "text"
+        ]
+      },
+      "border": {
+        "value": "#ebebec",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#ebebec",
+          "type": "color"
+        },
+        "name": "colors-calendar-border",
+        "attributes": {},
+        "path": [
+          "colors",
+          "calendar",
+          "border"
+        ]
+      },
+      "week": {
+        "value": "#76767b",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#76767b",
+          "type": "color"
+        },
+        "name": "colors-calendar-week",
+        "attributes": {},
+        "path": [
+          "colors",
+          "calendar",
+          "week"
+        ]
+      }
+    },
+    "text": {
+      "subtitle1": {
+        "value": "#1d1d1f",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#1d1d1f",
+          "type": "color"
+        },
+        "name": "colors-text-subtitle1",
+        "attributes": {},
+        "path": [
+          "colors",
+          "text",
+          "subtitle1"
+        ]
+      },
+      "subtitle2": {
+        "value": "#76767b",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#76767b",
+          "type": "color"
+        },
+        "name": "colors-text-subtitle2",
+        "attributes": {},
+        "path": [
+          "colors",
+          "text",
+          "subtitle2"
+        ]
+      },
+      "subtitle3": {
+        "value": "#9d9da0",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#9d9da0",
+          "type": "color"
+        },
+        "name": "colors-text-subtitle3",
+        "attributes": {},
+        "path": [
+          "colors",
+          "text",
+          "subtitle3"
+        ]
+      },
+      "subtitle4": {
+        "value": "#d8d8d9",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#d8d8d9",
+          "type": "color"
+        },
+        "name": "colors-text-subtitle4",
+        "attributes": {},
+        "path": [
+          "colors",
+          "text",
+          "subtitle4"
+        ]
+      },
+      "subtitle5": {
+        "value": "#ffffff",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "name": "colors-text-subtitle5",
+        "attributes": {},
+        "path": [
+          "colors",
+          "text",
+          "subtitle5"
+        ]
+      },
+      "title2": {
+        "value": "#1c96b5",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#1c96b5",
+          "type": "color"
+        },
+        "name": "colors-text-title2",
+        "attributes": {},
+        "path": [
+          "colors",
+          "text",
+          "title2"
+        ]
+      },
+      "title3": {
+        "value": "#2dbae4",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#2dbae4",
+          "type": "color"
+        },
+        "name": "colors-text-title3",
+        "attributes": {},
+        "path": [
+          "colors",
+          "text",
+          "title3"
+        ]
+      },
+      "title": {
+        "value": "#00606f",
+        "type": "color",
+        "filePath": "src/token/tokenBuild.json",
+        "isSource": true,
+        "original": {
+          "value": "#00606f",
+          "type": "color"
+        },
+        "name": "colors-text-title",
+        "attributes": {},
+        "path": [
+          "colors",
+          "text",
+          "title"
+        ]
+      }
+    }
+  },
+  "shadow": {
+    "sm": {
+      "value": "0 0 8px 0 #00000014",
+      "type": "boxShadow",
+      "filePath": "src/token/tokenBuild.json",
+      "isSource": true,
+      "original": {
+        "value": [
+          {
+            "x": 0,
+            "y": 0,
+            "blur": 8,
+            "spread": 0,
+            "color": "#00000014",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "name": "shadow-sm",
+      "attributes": {},
+      "path": [
+        "shadow",
+        "sm"
+      ]
+    },
+    "md": {
+      "value": "0 0 20px 0 #0000001f",
+      "type": "boxShadow",
+      "filePath": "src/token/tokenBuild.json",
+      "isSource": true,
+      "original": {
+        "value": [
+          {
+            "x": 0,
+            "y": 0,
+            "blur": 20,
+            "spread": 0,
+            "color": "#0000001f",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "name": "shadow-md",
+      "attributes": {},
+      "path": [
+        "shadow",
+        "md"
+      ]
+    },
+    "lg": {
+      "value": "0 0 24px 0 #00000033",
+      "type": "boxShadow",
+      "filePath": "src/token/tokenBuild.json",
+      "isSource": true,
+      "original": {
+        "value": [
+          {
+            "x": 0,
+            "y": 0,
+            "blur": 24,
+            "spread": 0,
+            "color": "#00000033",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "name": "shadow-lg",
+      "attributes": {},
+      "path": [
+        "shadow",
+        "lg"
+      ]
+    }
+  },
+  "screens": {
+    "sm": {
+      "value": "600px",
+      "type": "dimension",
+      "filePath": "src/token/tokenBuild.json",
+      "isSource": true,
+      "original": {
+        "value": "600px",
+        "type": "dimension"
+      },
+      "name": "screens-sm",
+      "attributes": {},
+      "path": [
+        "screens",
+        "sm"
+      ]
+    },
+    "md": {
+      "value": "720px",
+      "type": "dimension",
+      "filePath": "src/token/tokenBuild.json",
+      "isSource": true,
+      "original": {
+        "value": "720px",
+        "type": "dimension"
+      },
+      "name": "screens-md",
+      "attributes": {},
+      "path": [
+        "screens",
+        "md"
+      ]
+    },
+    "lg": {
+      "value": "1024px",
+      "type": "dimension",
+      "filePath": "src/token/tokenBuild.json",
+      "isSource": true,
+      "original": {
+        "value": "1024px",
+        "type": "dimension"
+      },
+      "name": "screens-lg",
+      "attributes": {},
+      "path": [
+        "screens",
+        "lg"
+      ]
+    },
+    "xl": {
+      "value": "1280px",
+      "type": "dimension",
+      "filePath": "src/token/tokenBuild.json",
+      "isSource": true,
+      "original": {
+        "value": "1280px",
+        "type": "dimension"
+      },
+      "name": "screens-xl",
+      "attributes": {},
+      "path": [
+        "screens",
+        "xl"
+      ]
+    },
+    "2xl": {
+      "value": "1440px",
+      "type": "dimension",
+      "filePath": "src/token/tokenBuild.json",
+      "isSource": true,
+      "original": {
+        "value": "1440px",
+        "type": "dimension"
+      },
+      "name": "screens-2xl",
+      "attributes": {},
+      "path": [
+        "screens",
+        "2xl"
+      ]
+    },
+    "3xl": {
+      "value": "1920px",
+      "type": "dimension",
+      "filePath": "src/token/tokenBuild.json",
+      "isSource": true,
+      "original": {
+        "value": "1920px",
+        "type": "dimension"
+      },
+      "name": "screens-3xl",
+      "attributes": {},
+      "path": [
+        "screens",
+        "3xl"
+      ]
+    }
+  }
+}

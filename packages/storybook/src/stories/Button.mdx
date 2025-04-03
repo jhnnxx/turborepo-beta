@@ -1,0 +1,132 @@
+import { Meta, Canvas } from '@storybook/blocks'
+import * as Button from './Button.stories'
+
+<Meta title="Button" name="Docs" of={Button} />
+
+# Button
+
+### Props
+
+<table>
+  <thead>
+    <tr>
+      <th>Props</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>type</th>
+      <td>'button' | 'submit' | 'link'</td>
+    </tr>
+    <tr>
+      <th>children</th>
+      <td>ReactNode</td>
+    </tr>
+    <tr>
+      <th>label</th>
+      <td>string</td>
+    </tr>
+    <tr>
+      <th>className</th>
+      <td>string | undefined</td>
+    </tr>
+    <tr>
+      <th>onClick</th>
+      <td>() => void</td>
+    </tr>
+    <tr>
+      <th>style</th>
+      <td>'style1' | 'style2' | 'style3' | 'text'</td>
+    </tr>
+    <tr>
+      <th>width</th>
+      <td>'full'</td>
+    </tr>
+    <tr>
+      <th>disabled</th>
+      <td>boolean</td>
+    </tr>
+    <tr>
+      <th>size</th>
+      <td>'xs' | 'sm' | 'md' | 'lg'</td>
+    </tr>
+    <tr>
+      <th>responseSize</th>
+      <td>'xs' | 'sm' | 'md' | 'lg'</td>
+    </tr>
+    <tr>
+      <th>fontSize</th>
+      <td>'xs' | 'sm' | 'lg'</td>
+    </tr>
+    <tr>
+      <th>line</th>
+      <td>boolean</td>
+    </tr>
+    <tr>
+      <th>href</th>
+      <td>UrlObject | string</td>
+    </tr>
+    <tr>
+      <th>as</th>
+      <td>UrlObject | string</td>
+    </tr>
+    <tr>
+      <th>target</th>
+      <td>HTMLAttributeAnchorTarget</td>
+    </tr>
+  </tbody>
+</table>
+
+### Size & ResponseSize Props Info
+
+<table className="text-center">
+  <tbody>
+    <tr>
+      <th>xs</th>
+      <td>height:36px font:12px</td>
+    </tr>
+    <tr>
+      <th>sm</th>
+      <td>height:44px font:14px</td>
+    </tr>
+    <tr>
+      <th>md</th>
+      <td>height:52px font:16px</td>
+    </tr>
+    <tr>
+      <th>lg</th>
+      <td>height:60px font:18px</td>
+    </tr>
+  </tbody>
+</table>
+
+### Font Size Props Info
+
+<table className="text-center">
+  <tbody>
+    <tr>
+      <th>xs</th>
+      <td>12px</td>
+    </tr>
+    <tr>
+      <th>sm</th>
+      <td>14px</td>
+    </tr>
+    <tr>
+      <th>lg</th>
+      <td>16px</td>
+    </tr>
+  </tbody>
+</table>
+
+### Style Props Info
+
+#### Description
+
+##### 총 3가지 스타일의 버튼이 있으며, Style1, Style2 버튼은 테마에 따라 컬러 변경 되고, Style3 버튼은 고정 Grayscale 컬러.
+
+<Canvas of={Button.Text} />
+<Canvas of={Button.Style1} />
+<Canvas of={Button.Style2} />
+<Canvas of={Button.Style3} />

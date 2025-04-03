@@ -1,0 +1,162 @@
+import { Meta, Canvas } from '@storybook/blocks'
+import * as Select from './Select.stories'
+
+<Meta title="Select" name="Docs" of={Select} />
+
+# Select
+
+### Props
+
+<table>
+  <thead>
+    <tr>
+      <th>Props</th>
+      <th>default</th>
+      <th>value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>label</th>
+      <td></td>
+      <td>string</td>
+      <td>라벨 텍스트. required 또는 register 가 있으면 * 표시됨</td>
+    </tr>
+    <tr>
+      <th>className</th>
+      <td>''</td>
+      <td>string</td>
+      <td>최상위 부모 요소 클래스</td>
+    </tr>
+    <tr>
+      <th>width</th>
+      <td></td>
+      <td>string</td>
+      <td>최상위 부모 요소 가로 사이즈</td>
+    </tr>
+    <tr>
+      <th>height</th>
+      <td></td>
+      <td>string</td>
+      <td>최상위 부모 요소 세로 사이즈</td>
+    </tr>
+    <tr>
+      <th>selectClassName</th>
+      <td>''</td>
+      <td>string</td>
+      <td>select box 영역에 적용되는 클래스</td>
+    </tr>
+    <tr>
+      <th>disabled</th>
+      <td></td>
+      <td>boolean</td>
+      <td>선택 비활성화</td>
+    </tr>
+    <tr>
+      <th>size</th>
+      <td>'md'</td>
+      <td>'sm' | 'md' | 'lg'</td>
+      <td>
+        Select 크기 조절<br />
+        sm: height- 36px, font size - 14px<br />
+        md: height- 44px, font size - 16px<br />
+        lg: height- 52px, font size - 16px
+      </td>
+    </tr>
+    <tr>
+      <th>required</th>
+      <td></td>
+      <td>boolean</td>
+      <td>label 에 필수 표시 (*) 및 옵션 미선택 시 내부에서 유효성 검사 (에러 메시지 표시)</td>
+    </tr>
+    <tr>
+      <th>register</th>
+      <td></td>
+      <td>UseFormRegisterReturn</td>
+      <td>label 에 필수 표시 (*) useForm 사용시</td>
+    </tr>
+    <tr>
+      <th>error</th>
+      <td></td>
+      <td>string</td>
+      <td>외부에서 전달되는 에러 메시지</td>
+    </tr>
+    <tr>
+      <th>placeholder</th>
+      <td>옵션을 선택하세요</td>
+      <td>string</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>value</th>
+      <td></td>
+      <td>string</td>
+      <td>선택된 값 (controlled 방식)</td>
+    </tr>
+    <tr>
+      <th>defaultValue</th>
+      <td></td>
+      <td>string</td>
+      <td>초기 선택값 (uncontrolled 방식)</td>
+    </tr>
+    <tr>
+      <th>options</th>
+      <td>\[\]</td>
+      <td>\[\{ label: string, value: string \}\]</td>
+      <td>
+        드롭다운에 표시할 옵션 리스트<br/>
+        \[\{ id: string, name: string \}\] 커스텀 될 경우 valueField, labelField 필수 작성<br/>
+        ex) valueField='id', labelField='name'<br/>
+      </td>
+    </tr>
+    <tr>
+      <th>labelField</th>
+      <td>'label'</td>
+      <td>string</td>
+      <td>
+          <b>옵션 리스트 커스텀 할 경우만 필수</b><br/>
+          라벨로 사용할 필드명
+      </td>
+    </tr>
+    <tr>
+      <th>valueField</th>
+      <td>'value'</td>
+      <td>string</td>
+      <td>
+          <b>옵션 리스트 커스텀 할 경우만 필수</b><br/>
+          실제 값으로 사용할 필드명
+      </td>
+    </tr>
+    <tr>
+      <th>maxOption</th>
+      <td>5</td>
+      <td>number</td>
+      <td>옵션 리스트 열릴 때 최대 노출 개수 (스크롤 가능)</td>
+    </tr>
+    <tr>
+      <th>onChange</th>
+      <td></td>
+      <td>(value: string) => void</td>
+      <td>값 변경 시 호출</td>
+    </tr>
+    <tr>
+      <th>ref</th>
+      <td></td>
+      <td>
+        import Select, \{SelectHandle\} '컴포넌트 경로'<br />
+        const 변수명 = useRef&lt;SelectHandle&gt;(null)<br />
+        변수명.current?.getValue()<br />
+        변수명.current?.validate()
+      </td>
+      <td>ref=\{변수명\} 로 getValue, validate 값 조회 및 유효성 검증용 ref</td>
+    </tr>
+  </tbody>
+</table>
+
+<section className="grid grid-cols-3 gap-4">
+    <Canvas of={Select.SizeLg} />
+    <Canvas of={Select.SizeMd} />
+    <Canvas of={Select.SizeSm} />
+</section>
+
